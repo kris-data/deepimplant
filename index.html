@@ -45,7 +45,11 @@
       color: #777;
       margin-top: 20px;
     }
-    h1 { font-size: 28px; margin-top: 24px; margin-bottom: 20px; }
+    h1 {
+      font-size: 28px;
+      margin-top: 24px;
+      margin-bottom: 20px;
+    }
     h2 {
       font-size: 24px;
       border-bottom: 1px solid #bce8f1;
@@ -54,12 +58,23 @@
       margin-bottom: 20px;
       font-weight: 600;
     }
-    h3 { font-size: 20px; margin-top: 30px; margin-bottom: 15px; font-weight: 600; }
+    h3 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
     h4 { font-size: 18px; }
     h5 { font-size: 16px; }
-    p, li { font-size: 16px; color: #444; }
-    ul { padding-left: 20px; list-style-type: disc; }
 
+    p, li {
+      font-size: 16px;
+      color: #444;
+    }
+    ul {
+      padding-left: 20px;
+      list-style-type: disc;
+    }
     img {
       display: block;
       overflow: hidden;
@@ -68,15 +83,17 @@
       margin: 1.5em auto;
       border-radius: 8px;
     }
-
     .executive-summary {
       background-color: #f8f9fa;
       padding: 30px;
       border-radius: 8px;
       border: 1px solid #dee2e6;
     }
-    .executive-summary h2 { margin-top: 0; border-bottom: none; padding-bottom: 0; }
-
+    .executive-summary h2 {
+      margin-top: 0;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
     .highlight {
       background-color: #e7f3ff;
       padding: 20px;
@@ -94,7 +111,11 @@
       background: #fff;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     }
-    .phase h3 { margin-top: 0; display: flex; align-items: center; }
+    .phase h3 {
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+    }
     .phase-tag {
       background-color: #0056b3;
       color: white;
@@ -129,15 +150,17 @@
       border: 1px solid #e0e0e0;
       border-radius: 5px;
     }
-    .killer-qa .question { font-weight: bold; color: #0056b3; }
-    .killer-qa .answer { padding-left: 1.5em; text-indent: -1.5em; }
-    .answer::before { content: "A. "; font-weight: bold; }
-
-    .strategy-section {
-      background-color: #f8f9fa;
-      padding: 30px;
-      border-radius: 8px;
-      margin-top: 40px;
+    .killer-qa .question {
+      font-weight: bold;
+      color: #0056b3;
+    }
+    .killer-qa .answer {
+      padding-left: 1.5em;
+      text-indent: -1.5em;
+    }
+    .answer::before {
+      content: "A. ";
+      font-weight: bold;
     }
 
     .timeline-graphic {
@@ -168,8 +191,16 @@
       position: relative;
       box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
-    .timeline-phase h4 { margin-top: 0; font-size: 16px; color: #0056b3; }
-    .timeline-phase p { font-size: 14px; color: #555; margin-bottom: 0; }
+    .timeline-phase h4 {
+      margin-top: 0;
+      font-size: 16px;
+      color: #0056b3;
+    }
+    .timeline-phase p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 0;
+    }
 
     .flow-diagram {
       display: flex;
@@ -192,7 +223,6 @@
       margin: 0 15px;
       font-weight: bold;
     }
-
     .investor-message {
       background-color: #004085;
       color: white;
@@ -201,20 +231,24 @@
       text-align: center;
       margin-top: 40px;
     }
-    .investor-message p { margin: 0; font-size: 18px; font-weight: 600; color: white; }
-
-    /* 이미지 로딩 실패 시 시각적 표시 */
-    .img-note {
-      font-size: 13px;
-      color: #777;
-      text-align: center;
-      margin-top: -12px;
-      margin-bottom: 24px;
+    .investor-message p {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
     }
 
     @media only screen and (max-width: 768px) {
-      body { padding: 0; margin: 0; font-size: 15px; }
-      .container { padding: 16px 20px 30px; margin: 0; box-shadow: none; }
+      body {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+      }
+      .container {
+        padding: 16px 20px 30px;
+        margin: 0;
+        box-shadow: none;
+      }
       header h1 { font-size: 28px; }
       h2 { font-size: 22px; }
       h3 { font-size: 18px; }
@@ -225,23 +259,10 @@
       .flow-arrow { transform: rotate(90deg); margin: 15px 0; }
     }
   </style>
-
-  <!-- 아래 Skywork 레퍼런스 CSS는 페이지 기능에 필수는 아니라서, 원하면 삭제해도 됩니다 -->
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024056107471962112" rel="stylesheet"/>
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024057903942316032" rel="stylesheet"/>
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024058433366835200" rel="stylesheet"/>
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024058989650870272" rel="stylesheet"/>
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024059961976225792" rel="stylesheet"/>
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024063039383715840" rel="stylesheet"/>
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024064292580720640" rel="stylesheet"/>
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024065444494098432" rel="stylesheet"/>
-  <link href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024072445196820480" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://static.skywork.ai/fe/skywork-site-assets/styles/doc_reference_style.css?v=2024074409913417728"/>
 </head>
 
 <body>
 <div class="container" data-cid="Og_giF">
-
   <header data-cid="--k5yX">
     <h1 data-cid="C1yTKO">딥임플란트(Deepimplant)</h1>
     <p data-cid="Lp0a_h">재치료 시장을 혁신하는 AI 덴탈케어 플랫폼 성장 전략 제안서</p>
@@ -265,7 +286,6 @@
   <!-- 1. Market Crisis -->
   <section data-cid="oqltUb">
     <h2 data-cid="ZgEYBD">1. 시장의 위기: 성장 이면의 그림자</h2>
-
     <h3 data-cid="D-t_Pd">1.1. 통계가 말해주는 &#39;재치료&#39; 문제의 심각성</h3>
     <p data-cid="3PGWm3">대한민국 임플란트 시장은 고령화와 건강보험 적용 확대로 양적 성장을 거듭해왔습니다. 그러나 그 이면에는 품질 저하와 사후관리 부재로 인한 심각한 문제가 자리 잡고 있습니다. 최신 건강보험심사평가원 데이터는 이 위기를 명확히 보여줍니다.</p>
     <ul data-cid="BsABRY">
@@ -274,9 +294,8 @@
       <li data-cid="9VjqtW"><strong data-cid="4co5MK">막대한 사회적 비용:</strong> 연간 20~30만 명의 환자가 1인당 평균 200만 원의 추가 비용을 부담, <strong data-cid="lhts_p">연간 4,000억~6,000억 원</strong> 규모의 비효율적 재치료 시장이 형성되었습니다.</li>
     </ul>
 
-    <!-- ✅ 외부 URL → 로컬 이미지로 변경 -->
-    <img alt="제거율 기사" data-cid="yq3s1o" src="assets/제거율기사.png" loading="lazy"/>
-    <div class="img-note">※ 이미지가 안 보이면: 레포에 <b>assets/제거율기사.png</b>가 있는지(대소문자/확장자) 확인하세요.</div>
+    <!-- ✅ 로컬 이미지로 변경 -->
+    <img alt="제거율 기사" data-cid="yq3s1o" src="assets/제거율기사.png"/>
 
     <div class="highlight" data-cid="7eq1ew">
       <p data-cid="lEqjnB"><strong data-cid="pMlpKj">문제의 본질:</strong> 이는 단순한 제품 불량이 아닌, &#39;저수가 출혈 경쟁&#39;, &#39;심고 끝&#39;으로 대표되는 사후관리 부재, &#39;단기 성과 중심의 시술 문화&#39;가 낳은 <strong data-cid="YbrOYd">구조적 시장 실패(Market Failure)</strong>입니다.</p>
@@ -305,9 +324,8 @@
     <h3 data-cid="TsyzzL">3) 아스트라 기반의 혁신적 딥임플란트 제품</h3>
     <p data-cid="QkSBk1">세계적인 &#39;아스트라&#39; 임플란트 기반의 독자적인 &#39;딥 커넥션(Deep Connection)&#39; 구조는 임플란트와 지대주 사이의 미세 흔들림을 최소화합니다. 이를 통해 임플란트 주위 뼈가 단순히 유착되는 것을 넘어, 시간이 지남에 따라 건강하게 차오르고 유지되는 &#39;뼈 재생&#39;을 임상적으로 입증했습니다.</p>
 
-    <!-- ✅ 외부 URL → 로컬 이미지로 변경 -->
-    <img alt="제품 이미지" data-cid="LrovXO" src="assets/제품이미지.png" loading="lazy"/>
-    <div class="img-note">※ 이미지가 안 보이면: 레포에 <b>assets/제품이미지.png</b>가 있는지 확인하세요.</div>
+    <!-- ✅ 로컬 이미지로 변경 -->
+    <img alt="제품 이미지" data-cid="LrovXO" src="assets/제품이미지.png"/>
 
     <h3 data-cid="fiePnN">4) 20,000여 건의 임상 및 1,500여 건의 재치료 임상 데이터 자산</h3>
     <p data-cid="W9bQW1">2만여 건의 방대한 임플란트 시술 경험, 특히 타사 임플란트 실패를 해결한 1,500여 건의 재치료 케이스는 &#39;왜 실패하는가&#39;와 &#39;어떻게 성공시키는가&#39;를 모두 담고 있는 독보적인 데이터 자산입니다. 이는 AI 플랫폼의 알고리즘을 고도화하는 핵심 원료가 됩니다.</p>
@@ -316,6 +334,7 @@
     <p data-cid="X5ebTd">서울대학교 치의학대학원 외래교수 재직, 다수의 저서 및 논문, 국내외 강연 활동을 통해 쌓아온 학술적 권위와 네트워크는 딥임플란트의 기술력을 보증하고, 인증 병원 네트워크 확장의 강력한 기반이 됩니다.</p>
   </section>
 
+  <!-- 3. Roadmap -->
   <section data-cid="Z6TD0H">
     <h2 data-cid="o9n-qJ">3. 혁신 비즈니스 모델: 3단계 성장 로드맵</h2>
     <p data-cid="r0erDQ">딥임플란트는 위 핵심 자산과 역량을 기반으로, 시장의 패러다임을 바꾸는 3단계 혁신 비즈니스 모델을 통해 플랫폼 생태계를 구축합니다.</p>
@@ -328,9 +347,8 @@
         <li data-cid="7-8t-O"><strong data-cid="9-10t-O">선순환 구조 창출:</strong> 환자는 재치료의 고통과 추가 비용에서 해방되고, 의사는 저수가 경쟁에서 벗어나 안정적인 수익을 창출하며, 제조사는 양질의 제품을 공급하는 건강한 생태계를 조성합니다.</li>
       </ul>
 
-      <!-- ✅ 외부 URL → 로컬 이미지로 변경 -->
-      <img alt="평생 케어" data-cid="-m8Pf2" src="assets/B2C평생케어이미지_최종.png" loading="lazy"/>
-      <div class="img-note">※ 이미지가 안 보이면: <b>assets/B2C평생케어이미지_최종.png</b> 경로/파일명을 확인하세요.</div>
+      <!-- ✅ 로컬 이미지로 변경 -->
+      <img alt="평생 케어" data-cid="-m8Pf2" src="assets/B2C평생케어이미지_최종.png"/>
     </div>
 
     <div class="phase" data-cid="WiyxSL">
@@ -341,9 +359,8 @@
         <li data-cid="qCipZU"><strong data-cid="QA8ZeJ">효율적인 지원 시스템:</strong> 딥임플란트 컨셉에 최적화된 보철물을 제작하는 &#39;전담 기공소 네트워크&#39;를 운영하여 시술의 완성도를 높이고, 파트너 병원들의 운영 효율을 극대화합니다.</li>
       </ul>
 
-      <!-- ✅ 외부 URL → 로컬 이미지로 변경 -->
-      <img alt="인증 병원" data-cid="LhR2Az" src="assets/B2B인증병원네트워크_최종.png" loading="lazy"/>
-      <div class="img-note">※ 이미지가 안 보이면: <b>assets/B2B인증병원네트워크_최종.png</b> 확인</div>
+      <!-- ✅ 로컬 이미지로 변경 -->
+      <img alt="인증 병원" data-cid="LhR2Az" src="assets/B2B인증병원네트워크_최종.png"/>
     </div>
 
     <div class="phase" data-cid="0HCP4J">
@@ -354,9 +371,8 @@
         <li data-cid="pjr6PM"><strong data-cid="cr4Ncm">운영 자동화 서비스:</strong> 초진 예약, 예약 변경, 보험 서류 자동 제공, 치료 후 관리 팁, 정기 검진 알림 등 개인 병원의 운영 편의성을 높이는 업무 자동화(RPA) 서비스를 탑재하여, 플랫폼 보급률을 빠르게 높이고 병원 운영의 핵심 파트너로 자리매김합니다.</li>
       </ul>
 
-      <!-- ✅ 외부 URL → 로컬 이미지로 변경 -->
-      <img alt="AI 플랫폼" data-cid="Lw6W5m" src="assets/AI플랫폼이미지_최종.png" loading="lazy"/>
-      <div class="img-note">※ 이미지가 안 보이면: <b>assets/AI플랫폼이미지_최종.png</b> 확인</div>
+      <!-- ✅ 로컬 이미지로 변경 -->
+      <img alt="AI 플랫폼" data-cid="Lw6W5m" src="assets/AI플랫폼이미지_최종.png"/>
     </div>
   </section>
 
@@ -445,17 +461,14 @@
     </table>
 
     <h3 data-cid="isAZSl">5.2. VC를 위한 Killer Questions &amp; Answers</h3>
-
     <div class="killer-qa" data-cid="G9dSx3">
       <p class="question" data-cid="8lAhNT">Q. 오스템, 덴티움 같은 대기업이 모방하면 어떻게 대응할 것인가?</p>
       <p class="answer" data-cid="9WcK7u">&#34;대기업은 대량 생산과 신규 식립 중심의 사업 구조를 가지고 있습니다. 반면, 우리는 김정찬 원장의 &#39;숙련된 술식&#39;과 &#39;실패 및 복구 데이터&#39;라는 비정형 자산을 보유하고 있습니다. 술식 교육과 인증 병원 네트워크는 자본만으로 단기간에 구축할 수 없는 강력한 커뮤니티 해자(Moat)입니다.&#34;</p>
     </div>
-
     <div class="killer-qa" data-cid="y_InS-">
       <p class="question" data-cid="YHMuDK">Q. 의사들이 왜 딥임플란트 인증 병원이 되어야 하는가?</p>
       <p class="answer" data-cid="sRQdNt">&#34;현재 치과계의 가장 큰 고민은 &#39;저수가 경쟁&#39;입니다. 우리는 재치료라는 &#39;고부가가치&#39; 시장을 열어주고, AI 매칭을 통해 신규 환자를 연결함으로써 치과의 순이익을 직접적으로 높여주는 명확한 솔루션을 제공합니다.&#34;</p>
     </div>
-
     <div class="killer-qa" data-cid="mnkpoK">
       <p class="question" data-cid="d-Gdqw">Q. 이 모델이 미국 시장에서도 통할 수 있습니까?</p>
       <p class="answer" data-cid="IOVIjX">&#34;충분히 가능성이 있으며, 오히려 구조적으로 더 유리합니다. 저희는 한국 테스트베드에서 모델을 완벽히 검증한 후, 고마진 미국 재치료 시장을 2단계 핵심 타겟으로 설정하여 글로벌 확장을 추진할 계획입니다. 미국 시장이 매력적인 이유는 다음과 같습니다.&#34;</p>
@@ -473,17 +486,11 @@
     <h2 data-cid="7foD4Q">6. 결론: 덴탈 헬스케어의 새로운 표준, 딥임플란트</h2>
     <p data-cid="u0NCyP">딥임플란트는 단순히 제품을 제조하는 기업이 아닙니다. 환자의 평생을 책임지는 &#39;케어 철학&#39;과 &#39;AI 데이터 플랫폼&#39;을 결합하여, 대한민국을 넘어 글로벌 덴탈 헬스케어의 새로운 표준을 제시하고자 합니다. 실패가 두렵지 않은 임플란트의 미래, 그 혁신적인 여정에 함께할 전략적 파트너를 기다립니다.</p>
 
-    <!-- ✅ 외부 URL → 로컬 이미지로 변경 -->
-    <img alt="비즈니스 모델 요약" data-cid="w1p_AA" src="assets/딥임플란트비즈니스모델요약.png" loading="lazy"/>
-    <div class="img-note">※ 이미지가 안 보이면: <b>assets/딥임플란트비즈니스모델요약.png</b> 확인</div>
+    <!-- ✅ 로컬 이미지로 변경 -->
+    <img alt="비즈니스 모델 요약" data-cid="w1p_AA" src="assets/딥임플란트비즈니스모델요약.png"/>
   </section>
 
-  <!-- 아래 reference-container는 실질적으로 비어있어서 원하면 삭제 가능 -->
-  <div class="reference-container" data-cid="ZcBLS8"></div>
-  <div class="reference-container" data-cid="3EOr0y"></div>
-  <div class="reference-container" data-cid="_RQnnt"></div>
-
-  <p data-cid="UNTtYv"><br/></p>
+  <p><br/></p>
 </div>
 </body>
 </html>
